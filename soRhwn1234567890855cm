@@ -1,0 +1,36 @@
+
+# def say_myself(name, age,man = True):
+#     print("나의 이름은 %s 입니다" % name)
+#     print("나의 나이은 %s 입니다" % age)
+#     if man:
+#         print("남자입니다")
+#     else:
+#         print("여자입니다")
+#
+# say_myself("조무건",69)
+
+
+
+# a = 1
+# def vartest():
+#     a = 2
+#     return a
+#
+# vartest()
+# print(a)
+
+
+# def solution(s):
+#     nums = {"zero":"0","one":"1","two":"2","three":"3","four":"4","five":"5","six":"6","seven":"7","eight":"8","nine":"9"}
+#     for key,velue in nums.items():
+#         if key in s:
+#             s = s.replace(key,velue)
+#             print(s)
+#     return int(s)
+#
+# s = "2nine3nine4nine5nine6nine"
+# print(solution(s))
+
+def solution(new_id):
+    a = input()
+    print(a.lower())
